@@ -1,6 +1,8 @@
+import { join } from "./join";
+
 function component() {
   const element = document.createElement("div");
-  element.innerHTML = "Hi there 👋 you are all set 🛠🙂";
+  element.innerHTML = join("Hi there 👋", "you are all set 🛠🙂");
   return element;
 }
 

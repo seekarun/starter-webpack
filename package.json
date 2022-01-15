@@ -6,14 +6,19 @@
   "author": "Arun Subramaniam <asubramaniam@seek.com.au>",
   "license": "MIT",
   "scripts": {
-    "build-with-watch": "webpack --watch",
+    "build-n-watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "test-n-watch": "jest --watch",
+    "test": "jest"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
     "webpack": "^5.66.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.3"
-  }
+  },
+  "dependencies": {}
 }
