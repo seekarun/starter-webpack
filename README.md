@@ -9,7 +9,7 @@ Simple starter project to build web apps using plain JS
 
 ### Commands
 
-__Yarn__ (to install all dependencies)
-__yarn start__ (open live session in browser)
-__yarn test-n-watch__: (run tests for every save)
-__yarn build-n-watch__ (build as you make changes)
+- __Yarn__ (to install all dependencies)
+- __yarn start__ (open live session in browser)
+- __yarn test-n-watch__: (run tests for every save)
+- __yarn build-n-watch__ (build as you make changes)
